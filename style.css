@@ -103,6 +103,72 @@ h1,h2,h3,h4,h5,h6{
 .hero-content-wrapper {
   padding: 190px 0px;
 }
+/* service css */
+.section-padding {
+  padding: 50px 0px;
+}
+.section-padding {
+  padding: 50px 0px;
+}
+
+.service-title p {
+  color: #0278f2;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.service-title h1 {
+  font-size: 32px;
+  margin-top: 8px;
+}
+
+.find-btn {
+  text-align: right;
+}
+
+.find-btn a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid#0278f2;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.single-service-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+  transition: .3s;
+  border: 1px solid transparent;
+  padding: 11px;
+}
+
+.service-icon i.fa {
+  font-size: 50px;
+  color: #0278f2;
+  margin-right: 17px;
+}
+
+.service-content h5 {
+  margin-bottom: 5px;
+  /* padding: 0; */
+  font-size: 18px;
+  font-weight: 0;
+  font-weight: 600;
+}
+
+.service-content p {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.single-service-box:hover {
+  border: 1px solid#e1e1e1;
+  box-shadow: 1px 1px 0px 0px#e1e1e1;
+}
 /* footer css */
 footer {
   background: #0c2034;
