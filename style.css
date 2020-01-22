@@ -181,6 +181,46 @@ h1,h2,h3,h4,h5,h6{
   width: 100%;
   height: auto;
 }
+.inso-service-slider .owl-nav .slider-arrow {
+  position: absolute;
+  top: calc(50% - 20px);
+  /* width: 100%; */
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.slider-arrow.slider-arrow-right {
+  right: -20px;
+}
+
+.slider-arrow.slider-arrow-left {
+  left: -20px;
+}
+.inso-service-slider {
+  margin-top: 55px;
+}
+
+button.owl-dot.active {}
+
+.inso-service-slider button.owl-dot {
+    width: 50px;
+    height: 2px;
+    background: #000000;
+    display: inline-block;
+    margin: 0 5px;
+    transition: all .5s;
+}
+.inso-service-slider .owl-dots {
+  text-align: center;
+}
+
+.inso-service-slider button.owl-dot.active {
+    background: #0278f2;
+    width: 70px;
+}
 /* footer css */
 footer {
   background: #0c2034;

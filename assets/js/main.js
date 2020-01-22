@@ -10,9 +10,12 @@
       // owl-carousel 
       $(".inso-service-slider").owlCarousel({
         loop:true,
-        margin:10,
+        margin:20,
         items:3,
+        autoplay:true,
         nav:true,
+        dots:true,
+        navText:["<div class='slider-arrow slider-arrow-left'><i class='fa fa-arrow-left'></i></div>","<div class='slider-arrow slider-arrow-right'><i class='fa fa-arrow-right'></i></div>"],
         responsive:{
             0:{
                 items:1
