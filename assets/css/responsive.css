@@ -1,0 +1,52 @@
+
+@media only screen and (min-width:1500px) {}
+
+/* Tablet Layout waid */
+@media only screen and (min-width:992px) and (max-width:1024px) {}
+
+/* tablet */
+@media only screen and (min-width:768px) and (max-width:991px) {}
+
+@media only screen and (min-width:1200px) {
+
+}
+
+@media only screen and (max-width:991px) {
+   
+	
+}
+
+
+/* Mobile Layout */
+@media only screen and (max-width:767px) {
+  .main-menu ul li {
+    display: block;
+  }
+  
+  .header-top-button {
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .mobile-menu {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 22px;
+    display: block;
+}
+.main-menu {
+  display: none;
+}
+
+}
+/* small scren*/
+@media only screen and (max-width:500px) {
+	
+	
+}
+
+
+@media only screen and (max-width:400px) {
+	
+}

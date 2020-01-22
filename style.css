@@ -12,6 +12,9 @@ h1,h2,h3,h4,h5,h6{
   background: #0b1d2f;
   padding: 10px 0px;
 }
+.mobile-menu{
+  display: none;
+}
 
 .main-menu ul {
   margin: 0;
@@ -107,6 +110,11 @@ h1,h2,h3,h4,h5,h6{
 .section-padding {
   padding: 50px 0px;
 }
+.achivement-section{
+  background-image: url(assets/img/service.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 .section-padding {
   padding: 50px 0px;
 }
@@ -169,12 +177,32 @@ h1,h2,h3,h4,h5,h6{
   border: 1px solid#e1e1e1;
   box-shadow: 1px 1px 0px 0px#e1e1e1;
 }
+.single-items-slide img {
+  width: 100%;
+  height: auto;
+}
 /* footer css */
 footer {
   background: #0c2034;
   padding-top: 32px;
 }
+.counter-box icon i.fa {
+  color: #0278f2;
+}
 
+.icon {
+  color: #0278f2;
+  font-size: 32px;
+}
+
+.counter-box span {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  display: block;
+}
+
+/* footer css here */
 
 .footer-widget-menu ul {
   margin: 0;
